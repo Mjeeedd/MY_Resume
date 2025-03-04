@@ -2,12 +2,11 @@
 body {
     background-color: #1e1d1d;
     color: white;
+    
     font-family: Arial, sans-serif;
     padding: 20px;
-    margin: 0;
 }
 
-/* Navigation Bar */
 nav ul {
     display: flex;
     justify-content: center;
@@ -15,7 +14,6 @@ nav ul {
     padding: 10px;
     background: #333;
     border-radius: 10px;
-    margin: 0;
 }
 
 nav ul li {
@@ -33,7 +31,6 @@ nav ul li a:hover {
     color: #ff9100;
 }
 
-/* Footer */
 footer {
     margin-top: 20px;
     padding: 10px;
@@ -41,51 +38,4 @@ footer {
     color: #aaa;
     font-size: 0.9em;
     border-radius: 5px;
-    text-align: center;
-}
-
-/* Responsive Styles for 768px and below (Tablets and Mobile) */
-@media (max-width: 768px) {
-    body {
-        padding: 15px;
-    }
-
-    nav ul {
-        flex-direction: column;
-        padding: 5px;
-    }
-
-    nav ul li {
-        margin: 10px 0;
-    }
-
-    footer {
-        font-size: 0.8em;
-    }
-}
-
-/* Responsive Styles for 375px (Small mobile devices) */
-@media (max-width: 375px) {
-    body {
-        padding: 10px;
-    }
-
-    nav ul li {
-        margin: 8px 0;
-    }
-
-    footer {
-        font-size: 0.75em;
-    }
-}
-
-/* Responsive Styles for 1200px (Larger screens) */
-@media (min-width: 1200px) {
-    nav ul {
-        padding: 20px;
-    }
-
-    footer {
-        font-size: 1em;
-    }
 }
