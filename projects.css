@@ -1,3 +1,44 @@
+/* Global Styles */
+body {
+    background-color: #1e1d1d;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 10px;
+    background: #333;
+    border-radius: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #00aaff;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff9100;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #000;
+    color: #aaa;
+    font-size: 0.9em;
+    border-radius: 5px;
+}
+
 /* Projects Page */
 #projects section {
     background: rgba(147, 145, 145, 0.2);
@@ -7,19 +48,82 @@
 
 /* تنسيق المشاريع */
 .project {
-    
     padding: 15px;
     margin: 15px 0;
     border-radius: 10px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
+
 h3 {
     color: #007bff;
 }
+
 ul {
     list-style-type: square;
     padding-left: 20px;
 }
-h2{
+
+h2 {
     padding: 5%;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+        font-size: 1.2em;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    footer {
+        font-size: 0.8em;
+    }
+
+    section {
+        width: 90%;
+    }
+
+    #projects section {
+        padding-left: 10px;
+    }
+
+    .project {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 375px) {
+    body {
+        padding: 10px;
+    }
+
+    nav ul li {
+        margin: 8px 0;
+    }
+
+    footer {
+        font-size: 0.75em;
+    }
+
+    .project {
+        padding: 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+    nav ul {
+        padding: 20px;
+    }
+
+    footer {
+        font-size: 1em;
+    }
 }
