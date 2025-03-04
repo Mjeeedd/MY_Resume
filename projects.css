@@ -46,7 +46,6 @@ footer {
     padding-left: 15px;
 }
 
-/* تنسيق المشاريع */
 .project {
     padding: 15px;
     margin: 15px 0;
@@ -71,7 +70,7 @@ h2 {
 @media (max-width: 768px) {
     header {
         padding: 10px;
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
     nav ul {
@@ -101,6 +100,11 @@ h2 {
 }
 
 @media (max-width: 375px) {
+    header {
+        padding: 3px;
+        font-size: 0.8em;  /* Reduced font size for phones */
+    }
+
     body {
         padding: 10px;
     }
