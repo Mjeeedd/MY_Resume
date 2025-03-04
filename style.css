@@ -4,15 +4,7 @@ body {
     color: white;
     font-family: Arial, sans-serif;
     padding: 20px;
-    margin: 0; /* Added margin reset for better consistency */
-}
-
-/* Set the viewport to ensure proper scaling on mobile */
-@viewport {
-    width: device-width;
-    initial-scale: 1;
-    maximum-scale: 1;
-    user-scalable: no;
+    margin: 0;
 }
 
 /* Navigation Bar */
@@ -23,7 +15,7 @@ nav ul {
     padding: 10px;
     background: #333;
     border-radius: 10px;
-    margin: 0; /* Reset margin */
+    margin: 0;
 }
 
 nav ul li {
@@ -49,57 +41,51 @@ footer {
     color: #aaa;
     font-size: 0.9em;
     border-radius: 5px;
-    text-align: center; /* Center align footer content */
+    text-align: center;
 }
 
-/* Responsive Styles */
+/* Responsive Styles for 768px and below (Tablets and Mobile) */
 @media (max-width: 768px) {
     body {
-        padding: 10px; /* Adjust padding for smaller screens */
+        padding: 15px;
     }
 
     nav ul {
-        flex-direction: column; /* Stack navigation items vertically on smaller screens */
+        flex-direction: column;
+        padding: 5px;
     }
 
     nav ul li {
-        margin: 10px 0; /* Adjust margin for stacked nav items */
+        margin: 10px 0;
     }
 
     footer {
-        font-size: 0.8em; /* Slightly smaller footer text */
+        font-size: 0.8em;
     }
 }
 
-@media (max-width: 480px) {
+/* Responsive Styles for 375px (Small mobile devices) */
+@media (max-width: 375px) {
     body {
-        padding: 5px; /* Even less padding on very small screens */
+        padding: 10px;
     }
 
     nav ul li {
-        margin: 5px 0; /* Further adjust margin for very small screens */
+        margin: 8px 0;
     }
 
     footer {
-        font-size: 0.7em; /* Make footer text smaller on small screens */
+        font-size: 0.75em;
     }
 }
 
-/* Specific Fix for iPhone */
-@media only screen and (max-width: 375px) {
-    body {
-        padding: 10px; /* Slightly larger padding for iPhone screens */
-    }
-
+/* Responsive Styles for 1200px (Larger screens) */
+@media (min-width: 1200px) {
     nav ul {
-        padding: 5px; /* Reduce padding on iPhone */
-    }
-
-    nav ul li {
-        margin: 8px 0; /* Adjust margin for better layout on iPhone */
+        padding: 20px;
     }
 
     footer {
-        font-size: 0.75em; /* Slightly smaller footer on iPhones */
+        font-size: 1em;
     }
 }
