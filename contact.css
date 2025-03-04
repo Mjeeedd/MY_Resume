@@ -1,0 +1,10 @@
+/* Contact Page */
+#contact section {
+    background: rgba(147, 145, 145, 0.2);
+    border-left: 5px solid #d428a9;
+  
+    text-align: center;
+}
+h2{
+    padding: 5%;
+}
