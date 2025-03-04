@@ -7,6 +7,14 @@ body {
     margin: 0; /* Added margin reset for better consistency */
 }
 
+/* Set the viewport to ensure proper scaling on mobile */
+@viewport {
+    width: device-width;
+    initial-scale: 1;
+    maximum-scale: 1;
+    user-scalable: no;
+}
+
 /* Navigation Bar */
 nav ul {
     display: flex;
@@ -74,5 +82,24 @@ footer {
 
     footer {
         font-size: 0.7em; /* Make footer text smaller on small screens */
+    }
+}
+
+/* Specific Fix for iPhone */
+@media only screen and (max-width: 375px) {
+    body {
+        padding: 10px; /* Slightly larger padding for iPhone screens */
+    }
+
+    nav ul {
+        padding: 5px; /* Reduce padding on iPhone */
+    }
+
+    nav ul li {
+        margin: 8px 0; /* Adjust margin for better layout on iPhone */
+    }
+
+    footer {
+        font-size: 0.75em; /* Slightly smaller footer on iPhones */
     }
 }
