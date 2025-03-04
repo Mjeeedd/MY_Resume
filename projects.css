@@ -100,25 +100,16 @@ h2 {
 }
 
 @media (max-width: 375px) {
-    header {
-        padding: 2px;  /* Reduced padding for smaller screens */
-        font-size: 0.7em;  /* Further reduce font size */
-    }
-
     body {
-        padding: 5px;
+        padding: 3px; /* تقليل الحشو إلى 5 بكسل */
     }
 
     nav ul li {
-        margin: 5px 0;
+        margin: 42px 0; /* تقليل الهوامش العمودية إلى 4 بكسل */
     }
 
     footer {
-        font-size: 0.7em;
-    }
-
-    .project {
-        padding: 8px;
+        font-size: 0.30em; /* تقليل حجم الخط في الفوتر */
     }
 }
 
