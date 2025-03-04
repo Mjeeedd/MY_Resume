@@ -87,7 +87,7 @@ section {
 }
 
 /* Extra small devices (iPhone, around 375px) - Making everything very small */
-@media (max-width: 375px) {
+@media (max-width: 576px) {
     body {
         padding: 1px;  /* Reduce overall padding */
     }
