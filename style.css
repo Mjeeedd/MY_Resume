@@ -2,7 +2,6 @@
 body {
     background-color: #1e1d1d;
     color: white;
-    
     font-family: Arial, sans-serif;
     padding: 20px;
 }
@@ -39,9 +38,73 @@ footer {
     font-size: 0.9em;
     border-radius: 5px;
 }
+
+/* Modified Media Queries for Smaller Screens */
+
+/* For screens up to 768px */
 @media (max-width: 768px) {
     header {
-        padding: 10px;
-        font-size: 1.2em;
+        padding: 10px;   /* Increased padding for better spacing */
+        font-size: 0.8em; /* Reduced font size */
     }
+}
+
+/* For screens up to 576px */
+@media (max-width: 576px) {
+    nav {
+        padding: 8px;    /* Reduced padding for nav container */
+        font-size: 0.8em; /* Reduced font size in nav */
+    }
+}
+
+/* For screens up to 375px (iPhone-like devices) */
+@media (max-width: 375px) {
+    nav {
+        padding: 5px;    /* Further reduce padding */
+        font-size: 0.75em; /* Further reduce font size */
+    }
+}
+
+/* For very small screens (up to 350px) */
+@media (max-width: 350px)  {
+    nav {
+        padding: 5px;    /* Reduced padding for nav container */
+        font-size: 0.6em; /* Reduced font size */
+    }
+
+    nav ul {
+        flex-direction: column;  /* Stack items vertically */
+    }
+
+    nav ul li {
+        margin: 5px 0;    /* Smaller margins between nav items */
+    }
+
+    header {
+        padding: 5px;    /* Adjust header padding */
+        font-size: 0.75em; /* Adjust header font size */
+        
+    }
+}
+/* For screens up to 576px */
+@media (max-width: 576px) {
+    nav {
+        padding: 5px;    /* Reduced padding for nav container */
+        font-size: 0.6em; /* Reduced font size */
+    }
+
+    nav ul {
+        flex-direction: column;  /* Stack items vertically */
+    }
+
+    nav ul li {
+        margin: 5px 0;    /* Smaller margins between nav items */
+    }
+
+    header {
+        padding: 5px;    /* Adjust header padding */
+        font-size: 0.75em; /* Adjust header font size */
+        
+    }
+
 }
