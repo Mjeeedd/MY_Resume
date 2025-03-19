@@ -1,14 +1,15 @@
-/* Skills Page */
-#skills section {
-    background: rgba(147, 145, 145, 0.2);
-    border-left: 5px solid #280463;
-    padding-left: 15px;
+
+section {
+    margin: 20px auto;
+    padding: 20px;
+    
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    
+    
+        border-left: 5px solid #733299;
+        
+       
     
 }
 
-h3{
-    color: #007bff;
-}
-h2{
-    padding: 5%;
-}
