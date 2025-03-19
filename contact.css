@@ -1,10 +1,19 @@
-/* Contact Page */
-#contact section {
-    background: rgba(147, 145, 145, 0.2);
-    border-left: 5px solid #d428a9;
-  
+
+
+
+
+
+section {
+    margin: 20px auto;
+    padding: 20px;
+    
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    
     text-align: center;
+        border-left: 5px solid #d0679d;
+        
+       
+    
 }
-h2{
-    padding: 5%;
-}
+
