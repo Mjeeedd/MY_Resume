@@ -1,13 +1,10 @@
-/* Education Page */
-#education section {
-    background: rgba(147, 145, 145, 0.2);
-    border-left: 5px solid #00aaff;
-    
-    padding: 15px;
-}
-h2{
-    
-    
-    padding: 4%;
-    
+
+
+section {
+    margin: 20px auto;
+    padding: 20px;
+   
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    border-left: 5px solid #3e90c3;
 }
