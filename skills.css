@@ -13,3 +13,11 @@ section {
     
 }
 
+ ul {
+            list-style-type: square;
+            padding-left: 20px;
+            font-size: 18px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
